@@ -17,6 +17,10 @@ template - This folder contains the HTML template (index.html) to allow user to 
 static - This folder contains the css folder with style.css file which has the styling required for out index.html file.
 
 
+credits:
+* Youtube
+* Github
+* Towardsdatascience
 
 check out the model :
 https://heart-attack-prediction-model.herokuapp.com/
