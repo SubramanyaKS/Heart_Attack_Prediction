@@ -1,10 +1,80 @@
 .wrapper{
-  background: #ee0909;
-  width: 510px;
-  margin: 2% auto;
-  padding: 8px 0 0 0;
+  background: #83ee09;
+  width: 430px;
+  margin: 5% auto;
+  padding: 8px 15px 5px 5px;
+}
+body{
+  background: #616060;
+  background: linear-gradient(to left, #1b53ec 0%, #0ed7f1 100%);
 }
 
+footer a{
+color: rgb(228, 24, 24);
+}
+footer a:hover{
+color: #fff;
+}
+.centerdiv{
+height: 15vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.centerdiv a{
+height: 30px;
+width: 30px;
+background-color: #f5f6f6;
+border-radius: 50px;
+text-align: center;
+margin: 5px;
+line-height: 30px;
+box-shadow: 1px 4px 2px 2px #dcdde1;
+position: relative;
+overflow: hidden;
+}
+.centerdiv a i{
+transition: all 0.3s linear;
+}
+.centerdiv a:hover i{
+transform: scale(1.5);
+color: #f5f6fa;
+}
+.centerdiv a:before{
+content: "";
+width: 120%; height: 120%;
+position: absolute;
+top: 90%; left: -50%;
+background-color: #01a8ff;
+transform: rotate(60deg);
+}
+
+.centerdiv a:hover:before{
+animation: socialicons 0.8s 1;
+animation-fill-mode: forwards;
+}
+@keyframes socialicons {
+
+0%{ top: 90%; left: -50%;}
+50%{ top: -60%; left: -10%;}
+100%{ top: -10%; left: -10%}
+}
+
+.fa-facebook-f{
+color: #e84393;
+}
+.fa-instagram{
+color: #e84393;
+}
+.fa-github{
+color: #e84118;
+}
+.fa-linkedin{
+color: #0097e6;
+}
+.fa-twitter{
+color: #0097e6;
+}
 .form-group{
   position: relative;
   margin-bottom: 1.5rem;
@@ -48,12 +118,12 @@
 
 
 /*****Start Facilities Css****/
-#facilities{
+.facilities{
   background-color: #06e3f7;
   padding: 30px;
 }
 
-#facilities h1{
+.facilities h1{
   font-weight: 900;
   font-size: 34px;
   padding-bottom: 5px;
