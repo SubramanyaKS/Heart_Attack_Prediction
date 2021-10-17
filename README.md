@@ -17,7 +17,7 @@ This project has four major parts :
 * static - This folder contains the css folder with style.css file which has the styling required for out index.html file.
 
 
-credits:
+## Credits:
 * Youtube
 * Github
 * Towardsdatascience
