@@ -1,12 +1,12 @@
 # Heart_Attack_Prediction
 
 ## Technology used
-* python
-* flask
-* html
-* css
-* jupyter notebook
-* deployed in heroku
+* Python
+* Flask
+* HTML
+* CSS
+* Jupyter Notebook
+* Deployed in heroku
 
 ## Project Structure
 This project has four major parts :
