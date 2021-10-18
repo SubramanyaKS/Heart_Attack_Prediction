@@ -38,5 +38,10 @@ This project has four major parts :
 * Github
 * Towardsdatascience
 
+#### Note:
+Data cleaning visualization and applying the algorithm all theses are in jupyter Notebook.
+
+Since accuracy from the kernel support vector machine is high so i used this algorithm for model deployment.
+
 check out the model :
 https://heart-attack-prediction-model.herokuapp.com/
