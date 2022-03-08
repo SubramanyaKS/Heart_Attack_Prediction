@@ -45,3 +45,7 @@ Since accuracy from the kernel support vector machine is high so i used this alg
 
 check out the model :
 https://heart-attack-prediction-model.herokuapp.com/
+
+
+If you like this project fork this project and ⭐ this repository.
+Thank You have a good day.
